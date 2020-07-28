@@ -4,7 +4,7 @@ calc = Calculator.new
 
 loop do
   begin
-    puts '式を入力してください。'
+    puts '式を入力してください。(exitで終了)'
     print '> '
     ipt = gets
     if ipt == "exit\n"
